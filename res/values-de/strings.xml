@@ -536,4 +536,22 @@
     <string name="file_header_select_summary">Benutzerdefiniertes Bild auswählen</string>
     <string name="file_header_provider_title">Benutzerdefiniertes Bild</string>
     <string name="file_header_provider" translatable="false">file</string>
+
+    <!-- Screen state service -->
+    <string name="screen_state_toggles_summary">@null</string>
+    <string name="screen_state_toggles_title">Suspend Actions</string>
+    <string name="screen_state_toggles_enable_title">Aktivieren</string>
+    <string name="screen_state_toggles_enable_summary">Aktionen werden bei ausgeschaltetem Bildschirm ausgeführt. Bei eingeschaltetem Bildschirm wird der vorherige Zustand wiederhergestellt.</string>
+    <string name="screen_state_toggles_mobile_title">Mobilfunknetze</string>
+    <string name="screen_state_toggles_location_title">Standort</string>
+    <string name="screen_state_toggles_twog">Umschalten auf 2G</string>
+    <string name="screen_state_toggles_twog_summary">Der Netzwerkmodus wird bei ausgeschaltetem Bildschirm auf 2G umgeschaltet</string>
+    <string name="screen_state_toggles_gps">GPS deaktivieren</string>
+    <string name="screen_state_toggles_gps_summary">Der GPS-basierte Ortungsdienst wird deaktiviert, wenn der Bildschirm ausgeschaltet wird.</string>
+    <string name="screen_state_toggles_mobile_data">Mobile Daten deaktivieren</string>
+    <string name="screen_state_toggles_mobile_data_summary">Mobile Daten werden deaktiviert, wenn der Bildschirm ausgeschaltet wird.</string>
+    <string name="screen_state_off_delay_title">Verzögerung von Aktionen bei ausgeschaltetem Bildschirm</string>
+    <string name="screen_state_off_delay_summary">Anzahl der Sekunden, die gewartet werden soll, bevor Aktionen nach dem Ausschalten des Bildschirms ausgeführt werden.</string>
+    <string name="screen_state_on_delay_title">Verzögerung von Aktionen bei eingeschaltetem Bildschirm</string>
+    <string name="screen_state_on_delay_summary">Anzahl der Sekunden, die gewartet werden soll, bevor Aktionen nach dem Einschalten des Bildschirms ausgeführt werden.</string>
 </resources>
