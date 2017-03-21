@@ -50,6 +50,12 @@
         android:title="@string/wakelock_blocker_title" 
         android:summary="@string/wakelock_blocker_summary" />
 
+    <Preference
+        android:key="screenstate_category" 
+        android:title="@string/screen_state_toggles_title"  
+        android:summary="@string/screen_state_toggles_summary"  
+        android:fragment="com.aosip.owlsnest.advanced.ScreenStateToggles" />
+
     <!-- Flashlight on incoming calls -->
     <ListPreference
         android:key="flashlight_on_call"
