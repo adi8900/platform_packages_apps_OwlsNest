@@ -664,4 +664,8 @@
     <string name="power_menu_bg_title">Hintergrundfilter</string>
     <string name="power_menu_bg_summary">Aktiviert benutzerdefinierten Filter, wenn das Powermenü aktiv ist</string>
     <string name="power_menu_bg_style_title">Filtertyp</string>
+
+    <!-- Running Services -->
+    <string name="qs_running_services_title">Symbol für laufende Prozesse</string>
+    <string name="qs_running_services_summary">Das Symbol für die laufenden Prozesse in der Fußzeile deaktivieren</string>
 </resources>

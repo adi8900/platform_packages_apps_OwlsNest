@@ -774,4 +774,8 @@
     <string name="power_menu_bg_title">Background Filter</string>
     <string name="power_menu_bg_summary">Enables Custom filter when powermenu is active</string>
     <string name="power_menu_bg_style_title">Filter Type</string>
+
+    <!-- Running Services -->
+    <string name="qs_running_services_title">Running Services Icon</string>
+    <string name="qs_running_services_summary">Disable the tile running services icon in the footer</string>
 </resources>
