@@ -626,4 +626,11 @@
 
     <string name="hide_lockscreen_indicator_display_title">Statustext</string>
     <string name="hide_lockscreen_indicator_display_summary">Ladeinformationen und Entsperrhinweise anzeigen</string>
+
+    <!-- Screen Stabilization -->
+    <string name="screen_stabilization_title">Bildstabilisierung</string>
+    <string name="screen_stabilization_summary">Bildschirminhalt stabilisieren, wenn Gerät in Bewegung ist</string>
+    <string name="stabilization_velocity_friction_title">Velocity friction</string>
+    <string name="stabilization_position_friction_title">Position friction</string>
+    <string name="stabilization_velocity_amplitude_title">Velocity amplitude</string>
 </resources>
