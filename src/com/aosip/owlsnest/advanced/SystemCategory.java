@@ -38,6 +38,7 @@ import com.aosip.owlsnest.utils.TelephonyUtils;
 import com.aosip.owlsnest.utils.Utils;
 import com.aosip.support.preference.CustomSeekBarPreference;
 import com.aosip.support.preference.SecureSettingSwitchPreference;
+import com.aosip.support.preference.SystemSettingSwitchPreference;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -51,6 +52,10 @@ public class SystemCategory extends SettingsPreferenceFragment implements
 
     private ListPreference mFlashlightOnCall;
     private ListPreference mLaunchPlayerHeadsetConnection;
+    private ListPreference mVelocityFriction;
+    private ListPreference mPositionFriction;
+    private ListPreference mVelocityAmplitude;
+    ContentResolver resolver;
 
     private static final String SYSUI_ROUNDED_SIZE = "sysui_rounded_size";
     private static final String SYSUI_ROUNDED_CONTENT_PADDING = "sysui_rounded_content_padding";
@@ -129,6 +134,33 @@ public class SystemCategory extends SettingsPreferenceFragment implements
         mRoundedFwvals = (SecureSettingSwitchPreference) findPreference(SYSUI_ROUNDED_FWVALS);
         mRoundedFwvals.setOnPreferenceChangeListener(this);
 
+        float velFriction = Settings.System.getFloatForUser(ctx.getContentResolver(),
+                    Settings.System.STABILIZATION_VELOCITY_FRICTION,
+                    0.1f,
+                    UserHandle.USER_CURRENT);
+        mVelocityFriction = (ListPreference) findPreference("stabilization_velocity_friction");
+	    mVelocityFriction.setValue(Float.toString(velFriction));
+	    mVelocityFriction.setSummary(mVelocityFriction.getEntry());
+	    mVelocityFriction.setOnPreferenceChangeListener(this);
+
+	    float posFriction = Settings.System.getFloatForUser(ctx.getContentResolver(),
+                    Settings.System.STABILIZATION_POSITION_FRICTION,
+                    0.1f,
+                    UserHandle.USER_CURRENT);
+            mPositionFriction = (ListPreference) findPreference("stabilization_position_friction");
+	    mPositionFriction.setValue(Float.toString(posFriction));
+	    mPositionFriction.setSummary(mPositionFriction.getEntry());
+	    mPositionFriction.setOnPreferenceChangeListener(this);
+
+	    int velAmplitude = Settings.System.getIntForUser(ctx.getContentResolver(),
+                    Settings.System.STABILIZATION_VELOCITY_AMPLITUDE,
+                    8000,
+                    UserHandle.USER_CURRENT);
+            mVelocityAmplitude = (ListPreference) findPreference("stabilization_velocity_amplitude");
+	    mVelocityAmplitude.setValue(Integer.toString(velAmplitude));
+	    mVelocityAmplitude.setSummary(mVelocityAmplitude.getEntry());
+	    mVelocityAmplitude.setOnPreferenceChangeListener(this);
+
     }
 
     private void restoreCorners() {
@@ -182,9 +214,27 @@ public class SystemCategory extends SettingsPreferenceFragment implements
                     ((int) newValue) * 1);
         } else if (preference == mRoundedFwvals) {
             restoreCorners();
-        }
-            return true;
-        }
+        } else if (preference == mVelocityFriction) {
+	        String value = (String) newValue;
+	        Settings.System.putFloatForUser(getContext().getContentResolver(),
+	                 Settings.System.STABILIZATION_VELOCITY_FRICTION, Float.valueOf(value), UserHandle.USER_CURRENT);
+	        int valueIndex = mVelocityFriction.findIndexOfValue(value);
+	        mVelocityFriction.setSummary(mVelocityFriction.getEntries()[valueIndex]);
+        } else if (preference == mPositionFriction) {
+	        String value = (String) newValue;
+	        Settings.System.putFloatForUser(getContext().getContentResolver(),
+	                 Settings.System.STABILIZATION_POSITION_FRICTION, Float.valueOf(value), UserHandle.USER_CURRENT);
+	        int valueIndex = mPositionFriction.findIndexOfValue(value);
+	        mPositionFriction.setSummary(mPositionFriction.getEntries()[valueIndex]);
+        } else if (preference == mVelocityAmplitude) {
+	        String value = (String) newValue;
+	        Settings.System.putFloatForUser(getContext().getContentResolver(),
+	                 Settings.System.STABILIZATION_VELOCITY_AMPLITUDE, Float.valueOf(value), UserHandle.USER_CURRENT);
+	        int valueIndex = mVelocityAmplitude.findIndexOfValue(value);
+	        mVelocityAmplitude.setSummary(mVelocityAmplitude.getEntries()[valueIndex]);
+       }
+    	return true;
+    }
 
     /**
      * For Search.
