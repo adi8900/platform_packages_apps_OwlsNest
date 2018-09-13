@@ -540,6 +540,20 @@
     <string name="file_header_provider_title">Benutzerdefiniertes Bild</string>
     <string name="file_header_provider" translatable="false">file</string>
 
+    <!-- Wakelock blocker -->
+    <string name="misc_title">Sonstiges</string>
+    <string name="wakelock_blocker_title">Wakelock-Blocker</string>
+    <string name="wakelock_blocker_summary">Blockiere System-Wakelocks</string>
+    <string name="wakelock_blocker_save">Speichern</string>
+    <string name="wakelock_list_header">Vorhandene Wakelocks</string>
+    <string name="wakelock_blocker_reload">Neu laden</string>
+    <!-- Alarm blocker -->
+    <string name="alarm_blocker_title">Alarm-Blocker</string>
+    <string name="alarm_blocker_summary">Alarme bei abgeschalteten Bildschirm blockieren</string>
+    <string name="alarm_blocker_save">Speichern</string>
+    <string name="alarm_list_header">Verfügbare Alarme</string>
+    <string name="alarm_blocker_reload">Neu laden</string>
+
     <!-- Screen state service -->
     <string name="screen_state_toggles_summary">@null</string>
     <string name="screen_state_toggles_title">Suspend Actions</string>
