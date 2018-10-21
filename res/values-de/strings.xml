@@ -697,4 +697,8 @@
     <string name="lock_date_font_title">Schriftstil vom Datum</string>
     <string name="lock_date_font_summary">Ändern der Standardschriftart des Sperrbildschirm-Datums-Widgets</string>
     <string name="lock_date_font_dialog_title">Schriftart für das Sperrdatum auswählen</string>
+
+    <!-- Lock Clock & Date Size -->
+    <string name="lockdate_font_size_title">Schriftgröße vom Datum</string>
+    <string name="lockclock_font_size_title">Schriftgröße des Uhr-Widgets</string>
 </resources>
