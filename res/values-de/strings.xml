@@ -692,4 +692,9 @@
     <string name="lock_clock_font_neoneon">Neoneon</string>
     <string name="lock_clock_font_themeable">Themeable (or VCR OSD Mono)</string>
     <string name="lock_clock_font_samsung">Shamshung</string>
+
+    <!-- Lock Date Fonts -->
+    <string name="lock_date_font_title">Schriftstil vom Datum</string>
+    <string name="lock_date_font_summary">Ändern der Standardschriftart des Sperrbildschirm-Datums-Widgets</string>
+    <string name="lock_date_font_dialog_title">Schriftart für das Sperrdatum auswählen</string>
 </resources>
