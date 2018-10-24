@@ -577,4 +577,21 @@
     <!-- Sensor block per-package -->
     <string name="sensor_block_title">Sensor blockieren pro Paket</string>
     <string name="sensor_block_summary">Den Zugriff auf bestimmte Sensoren für manche Apps blockieren, um Akku zu sparen.</string>
+
+    <!-- Lockscreen Colors -->
+    <string name="lockscreen_colors">Sperrbildschirm-Farben</string>
+    <string name="lockscreen_clock_color">Sperrbildschirm-Uhr</string>
+    <string name="lockscreen_colors_summary">Ändern der Farbe von Sperrbildschirm-Widgets</string>
+    <string name="lockscreen_clock_date_weather_color">Sperrbildschirm Datum und Wetter</string>
+    <string name="lockscreen_colors_reset_title">Sperrbildschirm-Farben zurücksetzen</string>
+    <string name="lockscreen_colors_reset_message">Sind Sie sicher, dass Sie diese Farben auf den Standard zurücksetzen möchten?</string>
+    <string name="lockscreen_colors_title">Sperrbildschirm-Farben</string>
+    <string name="lockscreen_owner_info_color">Sperrbildschirmnachricht</string>
+    <string name="lockscreen_phone_icon_color">Linke Sperrbildschirm-Verknüpfung</string>
+    <string name="lockscreen_lock_icon_color">Sperrbildschirm-Sperrsymbol</string>
+    <string name="lockscreen_camera_icon_color">Rechte Sperrbildschirm-Verknüpfung</string>
+    <string name="ls_shortcut_icon_color">Sperrbildschirm-Verknüpfungen</string>
+    <string name="lockscreen_indication_text_color">Statustext am unteren Rand</string>
+    <string name="lockscreen_weather_temp_color">Sperrbildschirm-Wetter</string>
+    <string name="yes">JA</string>
 </resources>
