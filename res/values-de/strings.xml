@@ -506,4 +506,7 @@
     <string name="volume_steps_system_title">Lautstärkestufen: System</string>
     <string name="volume_steps_voice_call_title">Lautstärkestufen: Sprachanruf</string>
     <string name="volume_steps_reset">Zurücksetzen</string>
+
+    <!-- QuickSettings Panel Transparency -->
+    <string name="qs_panel_alpha_title">Transparenz der Schnelleinstellungen</string>
 </resources>
