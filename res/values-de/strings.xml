@@ -487,4 +487,11 @@
     <string name="dialog_delete_title">Löschen</string>
     <string name="dialog_delete_message">Ausgewähltes Objekt entfernen?</string>
     <string name="app_ops_settings_summary">App-Berechtigungen verwalten</string>
+
+    <!-- Rounded corners -->
+    <string name="corners_category">Ecken</string>
+    <string name="corner_radius">Radius der abgerundenten Ecken</string>
+    <string name="content_padding">Abstand zum Inhalt</string>
+    <string name="corner_fwvals">Benutze Framework-Werte</string>
+    <string name="corner_fwvals_summary">Nützlich, wenn auf dem Gerät abgerundete Ecken eingschaltet sind</string>
 </resources>
