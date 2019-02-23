@@ -28,6 +28,12 @@
 	    settings:min="0"
 	    settings:units="" />
 
+    <Preference
+        android:key="custom_header"
+        android:fragment="com.aosip.owlsnest.quicksettings.CustomHeaders"
+        android:title="@string/custom_headers_title"
+        android:summary="@string/custom_headers_summary" />
+
     <com.aosip.support.preference.SecureSettingSwitchPreference
         android:key="qs_show_info_header"
         android:title="@string/show_info_header_title"

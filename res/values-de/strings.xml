@@ -509,4 +509,31 @@
 
     <!-- QuickSettings Panel Transparency -->
     <string name="qs_panel_alpha_title">Transparenz der Schnelleinstellungen</string>
+
+    <!-- Custom headers -->
+    <string name="custom_headers_title">Benutzerdefiniertes Headerbild</string>
+    <string name="custom_headers_summary">Wählen Sie ein Bild aus, das oben im Benachrichtigungsfeld angezeigt werden soll</string>
+    <string name="status_bar_custom_header_title">Aktivieren</string>
+    <string name="daylight_header_pack_title">Header-Bildersammlung</string>
+    <string name="status_bar_custom_header_shadow_title">Headerbild-Schatten</string>
+    <string name="status_bar_custom_header_shadow_summary">Zur besseren Sichtbarkeit auf hellen Bildern</string>
+    <string name="unit_percent">\u0025</string>
+    <string name="static_header_provider" translatable="false">static</string>
+    <string name="daylight_header_provider" translatable="false">daylight</string>
+    <string name="static_header_provider_title">Statisches Bild</string>
+    <string name="daylight_header_provider_title">Bildersammlung</string>
+    <string name="custom_header_provider_title">Header-Anbieter</string>
+    <string name="custom_header_browse_title">Erkunden installierter Header</string>
+    <string name="custom_header_browse_summary">Klicken Sie auf ein Bild, um es für den statischen Modus zu verwenden</string>
+    <string name="custom_header_browse_summary_new">Durchsuchen Sie alle verfügbaren Header-Sammlungen</string>
+    <string name="custom_header_pick_title">Header-Bild auswählen</string>
+    <string name="custom_header_pick_summary">Wählen Sie ein Bild für den statischen Modus</string>
+    <string name="style_enabled_summary">Benutzerdefiniertes Header-Bild ist AN</string>
+    <string name="style_disabled_summary">Benutzerdefiniertes Header-Bild ist AUS</string>
+    <string name="header_provider_disabled">Deaktiviert</string>
+    <string name="custom_header_title">Benutzerdefiniertes Headerbild</string>
+    <string name="file_header_select_title">Bild auswählen</string>
+    <string name="file_header_select_summary">Benutzerdefiniertes Bild auswählen</string>
+    <string name="file_header_provider_title">Benutzerdefiniertes Bild</string>
+    <string name="file_header_provider" translatable="false">file</string>
 </resources>
