@@ -554,4 +554,8 @@
     <string name="screen_state_off_delay_summary">Anzahl der Sekunden, die gewartet werden soll, bevor Aktionen nach dem Ausschalten des Bildschirms ausgeführt werden.</string>
     <string name="screen_state_on_delay_title">Verzögerung von Aktionen bei eingeschaltetem Bildschirm</string>
     <string name="screen_state_on_delay_summary">Anzahl der Sekunden, die gewartet werden soll, bevor Aktionen nach dem Einschalten des Bildschirms ausgeführt werden.</string>
+
+    <!-- Sensor block per-package -->
+    <string name="sensor_block_title">Sensor blockieren pro Paket</string>
+    <string name="sensor_block_summary">Den Zugriff auf bestimmte Sensoren für manche Apps blockieren, um Akku zu sparen.</string>
 </resources>
