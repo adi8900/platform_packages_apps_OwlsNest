@@ -92,13 +92,13 @@ public class ScreenStateToggles extends SettingsPreferenceFragment implements Pr
         mMinutesOffDelay = (CustomSeekBarPreference) findPreference(SCREEN_STATE_OFF_DELAY);
         int offd = Settings.System.getInt(getContentResolver(),
                 Settings.System.SCREEN_STATE_OFF_DELAY, 0);
-        mMinutesOffDelay.setValue(offd / 60);
+        mMinutesOffDelay.setValue(offd);
         mMinutesOffDelay.setOnPreferenceChangeListener(this);
 
         mMinutesOnDelay = (CustomSeekBarPreference) findPreference(SCREEN_STATE_ON_DELAY);
         int ond = Settings.System.getInt(getContentResolver(),
                 Settings.System.SCREEN_STATE_ON_DELAY, 0);
-        mMinutesOnDelay.setValue(ond / 60);
+        mMinutesOnDelay.setValue(ond);
         mMinutesOnDelay.setOnPreferenceChangeListener(this);
 
         mMobileDateCategory = (PreferenceCategory) findPreference(
@@ -202,13 +202,13 @@ public class ScreenStateToggles extends SettingsPreferenceFragment implements Pr
 
             return true;
         } else if (preference == mMinutesOffDelay) {
-            int delay = ((Integer) newValue) * 60;
+            int delay = (Integer) newValue;
             Settings.System.putInt(getActivity().getContentResolver(),
                     Settings.System.SCREEN_STATE_OFF_DELAY, delay);
 
             return true;
         } else if (preference == mMinutesOnDelay) {
-            int delay = ((Integer) newValue) * 60;
+            int delay = (Integer) newValue;
             Settings.System.putInt(getActivity().getContentResolver(),
                     Settings.System.SCREEN_STATE_ON_DELAY, delay);
 
