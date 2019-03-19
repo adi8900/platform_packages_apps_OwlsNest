@@ -546,6 +546,8 @@
     <string name="screen_state_toggles_location_title">Standort</string>
     <string name="screen_state_toggles_twog">Umschalten auf 2G</string>
     <string name="screen_state_toggles_twog_summary">Der Netzwerkmodus wird bei ausgeschaltetem Bildschirm auf 2G umgeschaltet</string>
+    <string name="screen_state_toggles_threeg">Umschalten auf 3G</string>
+    <string name="screen_state_toggles_threeg_summary">Der Netzwerkmodus wird bei ausgeschaltetem Bildschirm auf 3G umgeschaltet</string>
     <string name="screen_state_toggles_gps">GPS deaktivieren</string>
     <string name="screen_state_toggles_gps_summary">Der GPS-basierte Ortungsdienst wird deaktiviert, wenn der Bildschirm ausgeschaltet wird.</string>
     <string name="screen_state_toggles_mobile_data">Mobile Daten deaktivieren</string>
