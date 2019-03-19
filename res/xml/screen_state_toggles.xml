@@ -54,6 +54,12 @@
             android:title="@string/screen_state_toggles_twog"
             android:summary="@string/screen_state_toggles_twog_summary"
             android:defaultValue="false"/>
+			
+       <com.aosip.support.preference.SystemSettingSwitchPreference
+            android:key="screen_state_toggles_threeg"
+            android:title="@string/screen_state_toggles_threeg"
+            android:summary="@string/screen_state_toggles_threeg_summary"
+            android:defaultValue="false"/>
 
        <com.aosip.support.preference.SystemSettingSwitchPreference
             android:key="screen_state_toggles_mobile_data"
