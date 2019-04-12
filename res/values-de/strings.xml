@@ -427,7 +427,10 @@
     <string name="lockscreen_items_other">Sonstiges</string>
     <!-- Scramble PIN layout when unlocking -->
     <string name="unlock_scramble_pin_layout_title">Zufällige Anordnung</string>
-    <string name="unlock_scramble_pin_layout_summary">Bein Entsperren das PIN-Layout zufällig neu anordnen</string>
+    <string name="unlock_scramble_pin_layout_summary">Beim Entsperren das PIN-Layout zufällig neu anordnen</string>
+    <!-- Quick unlock -->
+    <string name="unlock_quick_unlock_control_title">Quick unlock</string>
+    <string name="unlock_quick_unlock_control_summary">Automatische Entsperrung bei Eingabe der/des korrekten PIN/Passwortes</string>
     <!-- Fingerprint authentication vibration -->
     <string name="fprint_sucess_vib_title">Vibrieren bei Fingerabdruck-Authentifizierung</string>
     <string name="fprint_sucess_vib_summary">Bei erfolgreicher Fingerabdruck-Erkennung vibrieren</string>
