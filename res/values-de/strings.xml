@@ -709,4 +709,10 @@
     <!-- Notification count -->
     <string name="status_bar_notif_count_title">Anzahl der Benachrichtigungen anzeigen</string>
     <string name="status_bar_notif_count_summary">Anzeige der Anzahl der ausstehenden Benachrichtigungen</string>
+
+    <!-- Lockscreen Date styles -->
+    <string name="lockscreen_date_selection_title">Datumsstil</string>
+    <string name="lockscreen_date_selection_default">Standard</string>
+    <string name="lockscreen_date_selection_str_box">Semi-transparente Box</string>
+    <string name="lockscreen_date_selection_str_round">Semi-transparente Box (rund)</string>
 </resources>
