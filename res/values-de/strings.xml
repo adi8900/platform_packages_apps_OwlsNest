@@ -640,4 +640,10 @@
     <string name="weather_unit">Temperatureinheit</string>
     <string name="weather_unit_metric" translatable="false">Celsius</string>
     <string name="weather_unit_imperial" translatable="false">Fahrenheit</string>
+
+    <!-- Lockscreen Date styles -->
+    <string name="lockscreen_date_selection_title">Datumsstil</string>
+    <string name="lockscreen_date_selection_default">Standard</string>
+    <string name="lockscreen_date_selection_str_box">Semi-transparente Box</string>
+    <string name="lockscreen_date_selection_str_round">Semi-transparente Box (rund)</string>
 </resources>

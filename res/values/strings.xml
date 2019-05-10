@@ -749,4 +749,10 @@
     <string name="stabilization_velocity_friction_title">Velocity friction</string>
     <string name="stabilization_position_friction_title">Position friction</string>
     <string name="stabilization_velocity_amplitude_title">Velocity amplitude</string>
+
+    <!-- Lockscreen Date styles -->
+    <string name="lockscreen_date_selection_title">Date style</string>
+    <string name="lockscreen_date_selection_default">Default</string>
+    <string name="lockscreen_date_selection_str_box">Semi-transparent box</string>
+    <string name="lockscreen_date_selection_str_round">Semi-transparent box (round)</string>
 </resources>
