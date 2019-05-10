@@ -715,4 +715,10 @@
     <!-- Force expanded notifications -->
     <string name="force_expanded_notifications_title">Erweiterte Benachrichtigungen erzwingen</string>
     <string name="force_expanded_notifications_summary">Apps erzwingen, die erweiterte Benachrichtigungen unterstützen</string>
+
+    <!-- Lockscreen Date styles -->
+    <string name="lockscreen_date_selection_title">Datumsstil</string>
+    <string name="lockscreen_date_selection_default">Standard</string>
+    <string name="lockscreen_date_selection_str_box">Semi-transparente Box</string>
+    <string name="lockscreen_date_selection_str_round">Semi-transparente Box (rund)</string>
 </resources>
