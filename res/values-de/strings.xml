@@ -716,4 +716,11 @@
     <string name="lockscreen_date_selection_str_box">Semi-transparente Box</string>
     <string name="lockscreen_date_selection_str_round">Semi-transparente Box (rund)</string>
     <string name="lockscreen_date_selection_qbeta_style">Q Beta Pille</string>
+    <string name="lockscreen_date_selection_str_accent">Abgerundet, schlicht und mit Akzent</string>
+    <string name="lockscreen_date_selection_str_accent_day">Abgerundet, schlicht und mit Akzent (alt)</string>
+    <string name="lockscreen_date_selection_str_accent_transparent">Abgerundet, transparent und mit Akzent</string>
+    <string name="lockscreen_date_selection_str_accent_transparent_day">Abgerundet, transparent und mit Akzent (alt)</string>
+    <string name="lockscreen_date_selection_str_gradient">Farbverlauf</string>
+    <string name="lockscreen_date_selection_str_border_accent">Dunkel mit akzentuiertem Rahmen</string>
+    <string name="lockscreen_date_selection_str_border_gradient">Dunkel mit Farbverlauf-Rahmen</string>
 </resources>
