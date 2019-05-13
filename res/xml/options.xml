@@ -128,7 +128,7 @@
         settings:min="50"
         settings:units="dp"
         android:persistent="false"
-        android:defaultValue="78" />
+        android:defaultValue="68" />
 
     <com.aosip.support.preference.CustomSeekBarPreference
         android:key="lockdate_font_size"
@@ -136,7 +136,7 @@
         android:max="25"
         settings:min="10"
         settings:units="dp"
-        android:defaultValue="14"
+        android:defaultValue="16"
         android:persistent="false" />
 
     <PreferenceCategory

@@ -79,13 +79,13 @@ public class OptionsCategory extends SettingsPreferenceFragment implements
         // Lock Clock Size
         mClockFontSize = (CustomSeekBarPreference) findPreference(CLOCK_FONT_SIZE);
         mClockFontSize.setValue(Settings.System.getInt(resolver,
-                Settings.System.LOCKCLOCK_FONT_SIZE, 78));
+                Settings.System.LOCKCLOCK_FONT_SIZE, 68));
         mClockFontSize.setOnPreferenceChangeListener(this);
 
         // Lock Date Size
         mDateFontSize = (CustomSeekBarPreference) findPreference(DATE_FONT_SIZE);
         mDateFontSize.setValue(Settings.System.getInt(resolver,
-                Settings.System.LOCKDATE_FONT_SIZE,14));
+                Settings.System.LOCKDATE_FONT_SIZE,16));
         mDateFontSize.setOnPreferenceChangeListener(this);
     }
 
