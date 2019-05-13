@@ -673,7 +673,7 @@
     <string name="lock_clock_font_title">Schriftstil des Uhr-Widgets</string>
     <string name="lock_clock_font_summary">Ändern der Standardschriftart des Sperrbildschirm-Uhr-Widgets</string>
     <string name="lock_clock_font_dialog_title">Wählen Sie die Schriftart der Sperruhr aus</string>
-    <string name="lock_clock_font_stock">Normal (Standard)</string>
+    <string name="lock_clock_font_stock">Normal</string>
     <string name="lock_clock_font_bold">Fett</string>
     <string name="lock_clock_font_italic">Kursiv</string>
     <string name="lock_clock_font_bold_italic">Fett kursiv</string>
@@ -701,7 +701,7 @@
     <string name="lock_clock_font_gobold">GoBold Light</string>
     <string name="lock_clock_font_roadrage">Road Rage</string>
     <string name="lock_clock_font_snowstorm">Snowstorm</string>
-    <string name="lock_clock_font_googlesans">Product Sans Light</string>
+    <string name="lock_clock_font_googlesans">Product Sans Light (Standard)</string>
     <string name="lock_clock_font_neoneon">Neoneon</string>
     <string name="lock_clock_font_themeable">Themeable (or VCR OSD Mono)</string>
     <string name="lock_clock_font_samsung">Shamshung</string>
