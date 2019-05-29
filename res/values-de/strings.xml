@@ -646,4 +646,5 @@
     <string name="lockscreen_date_selection_default">Standard</string>
     <string name="lockscreen_date_selection_str_box">Semi-transparente Box</string>
     <string name="lockscreen_date_selection_str_round">Semi-transparente Box (rund)</string>
+    <string name="lockscreen_date_selection_qbeta_style">Q Beta Pille</string>
 </resources>
