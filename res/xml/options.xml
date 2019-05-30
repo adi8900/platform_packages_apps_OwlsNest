@@ -86,6 +86,13 @@
         android:summary="@string/lockscreen_info_summary"
         android:defaultValue="true" />
 
+    <com.aosip.support.preference.SystemSettingSwitchPreference
+        android:key="weather_lockscreen_enabled"
+        android:title="@string/lock_screen_weather_title"
+        android:dependency="lockscreen_info"
+        android:summary="@string/lock_screen_weather_summary"
+        android:defaultValue="true" />
+
     <com.aosip.support.preference.SystemSettingListPreference
         android:key="weather_lockscreen_unit"
         android:dialogTitle="@string/weather_unit"
@@ -93,6 +100,7 @@
         android:summary="%s"
         android:entries="@array/weather_unit_entries"
         android:entryValues="@array/weather_unit_values"
+        android:dependency="weather_lockscreen_enabled"
         android:defaultValue="@*android:integer/weather_lockscreen_default_unit" />
 
     <PreferenceScreen
