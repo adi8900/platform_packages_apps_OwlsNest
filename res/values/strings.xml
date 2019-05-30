@@ -499,6 +499,8 @@
     <string name="lockscreen_cover_filter_grayblur">Grayscale and blurred</string>
 
     <!-- Weather -->
+    <string name="lock_screen_weather_title">Display weather</string>
+    <string name="lock_screen_weather_summary">Display weather on lockscreen</string>
     <string name="weather_unit">Temperature unit</string>
     <string name="weather_unit_metric" translatable="false">Celsius</string>
     <string name="weather_unit_imperial" translatable="false">Fahrenheit</string>
