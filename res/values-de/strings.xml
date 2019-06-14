@@ -406,6 +406,7 @@
     <string name="lockscreen_cover_filter_tint">Akzent gefärbt</string>
     <string name="lockscreen_cover_filter_blur">Unschärfe</string>
     <string name="lockscreen_cover_filter_grayblur">Graustufen und unscharf</string>
+    <string name="lockscreen_cover_filter_tinted_blur">Akzent gefärbt und unscharf</string>
     <!-- Facelock toggle -->
     <string name="face_auto_unlock_title">Entsperren per Gesichtserkennung</string>
     <string name="face_auto_unlock_summary">Sperrbildschirm nach Gesichtserkennung automatisch übergehen</string>
@@ -641,4 +642,9 @@
     <string name="weather_unit">Temperatureinheit</string>
     <string name="weather_unit_metric" translatable="false">Celsius</string>
     <string name="weather_unit_imperial" translatable="false">Fahrenheit</string>
+
+    <!-- Powermenu Background -->
+    <string name="power_menu_bg_title">Hintergrundfilter</string>
+    <string name="power_menu_bg_summary">Aktiviert benutzerdefinierten Filter, wenn das Powermenü aktiv ist</string>
+    <string name="power_menu_bg_style_title">Filtertyp</string>
 </resources>
