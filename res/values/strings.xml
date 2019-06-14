@@ -501,6 +501,7 @@
     <string name="lockscreen_cover_filter_tint">Accent tinted</string>
     <string name="lockscreen_cover_filter_blur">Blur</string>
     <string name="lockscreen_cover_filter_grayblur">Grayscale and blurred</string>
+    <string name="lockscreen_cover_filter_tinted_blur">Accent Tinted and blurred</string>
 
     <!-- Weather -->
     <string name="lock_screen_weather_title">Display weather</string>
@@ -763,4 +764,9 @@
     <string name="lockscreen_date_selection_str_gradient">Gradient</string>
     <string name="lockscreen_date_selection_str_border_accent">Dark with accented borders</string>
     <string name="lockscreen_date_selection_str_border_gradient">Dark with gradient borders</string>
+
+    <!-- Powermenu Background -->
+    <string name="power_menu_bg_title">Background Filter</string>
+    <string name="power_menu_bg_summary">Enables Custom filter when powermenu is active</string>
+    <string name="power_menu_bg_style_title">Filter Type</string>
 </resources>
