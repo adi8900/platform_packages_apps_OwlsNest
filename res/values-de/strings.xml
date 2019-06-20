@@ -621,4 +621,7 @@
     <!-- Fingerprint unlock keystore -->
     <string name="fp_unlock_keystore_title">Authentifizierung durch Fingerabdruck erzwingen</string>
     <string name="fp_unlock_keystore_summary">Gerät nach Neustart oder Sperre mit Fingerabdruck entsperren</string>
+
+    <string name="hide_lockscreen_icon_title">Sperrsymbol</string>
+    <string name="hide_lockscreen_icon_summary">Sperrsymbol unten anzeigen</string>
 </resources>
