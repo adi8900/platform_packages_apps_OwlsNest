@@ -147,6 +147,9 @@
     <string name="lockscreen_hide_status_bar_title">Hide Statusbar</string>
     <string name="lockscreen_hide_status_bar_summary">When enabled, statusbar will be hidden on lockscreen</string>
 
+    <string name="hide_lockscreen_icon_title">Lock icon</string>
+    <string name="hide_lockscreen_icon_summary">Show lock icon on the bottom</string>
+
     <!-- Hide notch -->
     <string name="hide_notch_title">Hide notch</string>
     <string name="hide_notch_summary">If enabled it hides notch and fills in side gaps</string>
