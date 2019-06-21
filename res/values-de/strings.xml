@@ -624,4 +624,7 @@
 
     <string name="hide_lockscreen_icon_title">Sperrsymbol</string>
     <string name="hide_lockscreen_icon_summary">Sperrsymbol unten anzeigen</string>
+
+    <string name="hide_lockscreen_indicator_display_title">Statustext</string>
+    <string name="hide_lockscreen_indicator_display_summary">Ladeinformationen und Entsperrhinweise anzeigen</string>
 </resources>
