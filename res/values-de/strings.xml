@@ -616,4 +616,8 @@
     <string name="battery_bar_gradient_color_summary">Verwende Farbverlauf als Maßstab für den Akkustand</string>
     <string name="battery_bar_high_color">Farbe bei hohem Akkustand</string>
     <string name="battery_bar_low_color">Farbe bei niedrigem Akkustand</string>
+
+    <!-- Fingerprint unlock keystore -->
+    <string name="fp_unlock_keystore_title">Authentifizierung durch Fingerabdruck erzwingen</string>
+    <string name="fp_unlock_keystore_summary">Gerät nach Neustart oder Sperre mit Fingerabdruck entsperren</string>
 </resources>
