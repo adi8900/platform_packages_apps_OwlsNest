@@ -141,32 +141,23 @@ public class AccentPicker extends InstrumentedDialogFragment implements OnClickL
                 ThemeAccentUtils.isUsingDarkTheme(mOverlayManager, mCurrentUserId) ? R.color.accent_picker_white_accent : R.color.accent_picker_dark_accent));
         setAccent("20", blackAccent);
 
-        Button userAccentOne = mView.findViewById(R.id.userAccentOne);
-        setAccent("22", userAccentOne);
+        Button qAccentOne = mView.findViewById(R.id.qAccentOne);
+        setAccent("22", qAccentOne);
 
-        Button userAccentTwo = mView.findViewById(R.id.userAccentTwo);
-        setAccent("23", userAccentTwo);
+        Button qAccentTwo = mView.findViewById(R.id.qAccentTwo);
+        setAccent("23", qAccentTwo);
 
-        Button userAccentThree = mView.findViewById(R.id.userAccentThree);
-        setAccent("24", userAccentThree);
+        Button qAccentThree = mView.findViewById(R.id.qAccentThree);
+        setAccent("24", qAccentThree);
 
-        Button userAccentFour = mView.findViewById(R.id.userAccentFour);
-        setAccent("25", userAccentFour);
+        Button qAccentFour = mView.findViewById(R.id.qAccentFour);
+        setAccent("25", qAccentFour);
 
-        Button userAccentFive = mView.findViewById(R.id.userAccentFive);
-        setAccent("26", userAccentFive);
+        Button qAccentFive = mView.findViewById(R.id.qAccentFive);
+        setAccent("26", qAccentFive);
 
-        Button userAccentSix = mView.findViewById(R.id.userAccentSix);
-        setAccent("27", userAccentSix);
-
-        Button userAccentSeven = mView.findViewById(R.id.userAccentSeven);
-        setAccent("28", userAccentSeven);
-
-        Button userAccentEight = mView.findViewById(R.id.userAccentEight);
-        setAccent("29", userAccentEight);
-
-        Button userAccentNine = mView.findViewById(R.id.userAccentNine);
-        setAccent("30", userAccentNine);
+        Button qAccentSix = mView.findViewById(R.id.qAccentSix);
+        setAccent("27", qAccentSix);
     }
 
     @Override

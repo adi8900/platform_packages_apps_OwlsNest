@@ -20,84 +20,57 @@
     android:layout_height="wrap_content">
 
     <Button
-        android:id="@+id/userAccentOne"
-        android:layout_width="70dp"
-        android:layout_height="70dp"
-        android:layout_columnWeight="1"
-        android:gravity="center"
-        android:layout_gravity="fill_horizontal"
-        android:background="#900000" />
-
-    <Button
-        android:id="@+id/userAccentTwo"
-        android:layout_width="70dp"
-        android:layout_height="70dp"
-        android:layout_columnWeight="1"
-        android:gravity="center"
-        android:layout_gravity="fill_horizontal"
-        android:background="#42069a" />
-
-    <Button
-        android:id="@+id/userAccentThree"
-        android:layout_width="70dp"
-        android:layout_height="70dp"
-        android:layout_columnWeight="1"
-        android:gravity="center"
-        android:layout_gravity="fill_horizontal"
-        android:background="#1976D2" />
-
-    <Button
-        android:id="@+id/userAccentFour"
-        android:layout_width="70dp"
-        android:layout_height="70dp"
-        android:layout_columnWeight="1"
-        android:gravity="center"
-        android:layout_gravity="fill_horizontal"
-        android:background="#42f4aa" />
-
-    <Button
-        android:id="@+id/userAccentFive"
-        android:layout_width="70dp"
-        android:layout_height="70dp"
-        android:layout_columnWeight="1"
-        android:gravity="center"
-        android:layout_gravity="fill_horizontal"
-        android:background="#0EE898" />
-
-    <Button
-        android:id="@+id/userAccentSix"
-        android:layout_width="70dp"
-        android:layout_height="70dp"
-        android:layout_columnWeight="1"
-        android:gravity="center"
-        android:layout_gravity="fill_horizontal"
-        android:background="#FFC27B" />
-
-    <Button
-        android:id="@+id/userAccentSeven"
-        android:layout_width="70dp"
-        android:layout_height="70dp"
-        android:layout_columnWeight="1"
-        android:gravity="center"
-        android:layout_gravity="fill_horizontal"
-        android:background="#FFCC00" />
-
-    <Button
-        android:id="@+id/userAccentEight"
-        android:layout_width="70dp"
-        android:layout_height="70dp"
-        android:layout_columnWeight="1"
-        android:gravity="center"
-        android:layout_gravity="fill_horizontal"
-        android:background="#B39DDB" />
-
-    <Button
-        android:id="@+id/userAccentNine"
+        android:id="@+id/qAccentOne"
         android:layout_width="70dp"
         android:layout_height="70dp"
         android:layout_columnWeight="1"
         android:gravity="center"
         android:layout_gravity="fill_horizontal"
         android:background="#1B873B" />
+
+    <Button
+        android:id="@+id/qAccentTwo"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_columnWeight="1"
+        android:gravity="center"
+        android:layout_gravity="fill_horizontal"
+        android:background="#725aff" />
+
+    <Button
+        android:id="@+id/qAccentThree"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_columnWeight="1"
+        android:gravity="center"
+        android:layout_gravity="fill_horizontal"
+        android:background="#af6050" />
+
+    <Button
+        android:id="@+id/qAccentFour"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_columnWeight="1"
+        android:gravity="center"
+        android:layout_gravity="fill_horizontal"
+        android:background="#0c80a7" />
+
+    <Button
+        android:id="@+id/qAccentFive"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_columnWeight="1"
+        android:gravity="center"
+        android:layout_gravity="fill_horizontal"
+        android:background="#47618a" />
+
+    <Button
+        android:id="@+id/qAccentSix"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_columnWeight="1"
+        android:gravity="center"
+        android:layout_gravity="fill_horizontal"
+        android:background="#c42cc9" />
 
 </LinearLayout>
