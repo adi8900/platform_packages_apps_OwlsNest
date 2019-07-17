@@ -61,7 +61,7 @@
             android:layout_marginStart="23dp"
             android:textStyle="bold"
             android:textSize="14sp"
-            android:text="@string/accent_picker_custom_colors" />
+            android:text="@string/accent_picker_q_colors" />
 
         <HorizontalScrollView
             android:layout_width="match_parent"
@@ -74,7 +74,7 @@
                 android:columnCount="1"
                 android:columnOrderPreserved="true">
 
-                <include layout="@layout/custom_colors" />
+                <include layout="@layout/q_colors" />
 
             </GridLayout>
         </HorizontalScrollView>
