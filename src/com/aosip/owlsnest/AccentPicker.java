@@ -158,6 +158,66 @@ public class AccentPicker extends InstrumentedDialogFragment implements OnClickL
 
         Button qAccentSix = mView.findViewById(R.id.qAccentSix);
         setAccent("27", qAccentSix);
+
+        Button brandAccentOne = mView.findViewById(R.id.brandAccentOne);
+        setAccent("28", brandAccentOne);
+
+        Button brandAccentTwo = mView.findViewById(R.id.brandAccentTwo);
+        setAccent("29", brandAccentTwo);
+
+        Button brandAccentThree = mView.findViewById(R.id.brandAccentThree);
+        setAccent("30", brandAccentThree);
+
+        Button brandAccentFour = mView.findViewById(R.id.brandAccentFour);
+        setAccent("31", brandAccentFour);
+
+        Button brandAccentFive = mView.findViewById(R.id.brandAccentFive);
+        setAccent("32", brandAccentFive);
+
+        Button brandAccentSix = mView.findViewById(R.id.brandAccentSix);
+        setAccent("33", brandAccentSix);
+
+        Button brandAccentSeven = mView.findViewById(R.id.brandAccentSeven);
+        setAccent("34", brandAccentSeven);
+
+        Button brandAccentEight = mView.findViewById(R.id.brandAccentEight);
+        setAccent("35", brandAccentEight);
+
+        Button brandAccentNine = mView.findViewById(R.id.brandAccentNine);
+        setAccent("36", brandAccentNine);
+
+        Button brandAccentTen = mView.findViewById(R.id.brandAccentTen);
+        setAccent("37", brandAccentTen);
+
+        Button brandAccentEleven = mView.findViewById(R.id.brandAccentEleven);
+        setAccent("38", brandAccentEleven);
+
+        Button brandAccentTwelve = mView.findViewById(R.id.brandAccentTwelve);
+        setAccent("39", brandAccentTwelve);
+
+        Button brandAccentThirteen = mView.findViewById(R.id.brandAccentThirteen);
+        setAccent("40", brandAccentThirteen);
+
+        Button brandAccentFourteen = mView.findViewById(R.id.brandAccentFourteen);
+        setAccent("41", brandAccentFourteen);
+
+        Button brandAccentFifteen = mView.findViewById(R.id.brandAccentFifteen);
+        setAccent("42", brandAccentFifteen);
+
+        Button brandAccentSixteen = mView.findViewById(R.id.brandAccentSixteen);
+        setAccent("43", brandAccentSixteen);
+
+        Button brandAccentSeventeen = mView.findViewById(R.id.brandAccentSeventeen);
+        setAccent("44", brandAccentSeventeen);
+
+        Button brandAccentEighteen = mView.findViewById(R.id.brandAccentEighteen);
+        setAccent("45", brandAccentEighteen);
+
+        Button brandAccentNineteen = mView.findViewById(R.id.brandAccentNineteen);
+        setAccent("46", brandAccentNineteen);
+
+        Button brandAccentTwenty = mView.findViewById(R.id.brandAccentTwenty);
+        setAccent("47", brandAccentTwenty);
     }
 
     @Override
