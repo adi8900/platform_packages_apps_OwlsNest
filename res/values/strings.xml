@@ -826,4 +826,8 @@
     <string name="lockclock_font_size_title">Clock font size</string>
 
     <string name="ls_colors_fonts_title">Colors and fonts</string>
+
+    <!-- Battery fully charged -->
+    <string name="battery_fully_charged_notif_title">Battery fully charged</string>
+    <string name="battery_fully_charged_notif_summary">Show a notification when the battery is fully charged</string>
 </resources>
