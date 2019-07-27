@@ -707,4 +707,8 @@
     <string name="lockclock_font_size_title">Schriftgröße des Uhr-Widgets</string>
 
     <string name="ls_colors_fonts_title">Farben, Schriftarten und Größen</string>
+
+    <!-- Battery fully charged -->
+    <string name="battery_fully_charged_notif_title">Akku vollständig geladen</string>
+    <string name="battery_fully_charged_notif_summary">Zeigt eine Benachrichtigung an, wenn der Akku vollständig geladen ist</string>
 </resources>
