@@ -711,4 +711,8 @@
     <!-- Battery fully charged -->
     <string name="battery_fully_charged_notif_title">Akku vollständig geladen</string>
     <string name="battery_fully_charged_notif_summary">Zeigt eine Benachrichtigung an, wenn der Akku vollständig geladen ist</string>
+
+    <!-- Force expanded notifications -->
+    <string name="force_expanded_notifications_title">Erweiterte Benachrichtigungen erzwingen</string>
+    <string name="force_expanded_notifications_summary">Apps erzwingen, die erweiterte Benachrichtigungen unterstützen</string>
 </resources>
