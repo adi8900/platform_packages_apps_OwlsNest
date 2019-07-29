@@ -360,15 +360,19 @@
 
     <!-- Statusbar Logos -->
     <string-array name="status_bar_logo_style_entries">
-        <item>Default (Kronic 2.0)</item>
+        <item>Default (DerpFest)</item>
         <item>Khloe</item>
         <item>Kronic</item>
+        <item>Kronic 2.0</item>
         <item>Kronic 3.0</item>
         <item>OwlsNest</item>
+        <item>DerpFest default for themes</item>
+        <item>DerpFest alternative</item>
         <item>Android Head</item>
         <item>Brain</item>
         <item>Alien</item>
         <item>Clippy</item>
+        <item>Death Star</item>
         <item>Diamond Stone</item>
         <item>Drama Masks</item>
         <item>Emoji with Glasses</item>
@@ -399,7 +403,6 @@
         <item>Themeable logo 1 (mdi cross)</item>
         <item>Themeable logo 2 (mdi lightning)</item>
         <item>Themeable logo 3 (mdi skull)</item>
-        <item>Death Star</item>
     </string-array>
 
     <string-array name="status_bar_logo_style_values" translatable="false">
@@ -443,6 +446,9 @@
         <item>37</item>
         <item>38</item>
         <item>39</item>
+        <item>40</item>
+        <item>41</item>
+        <item>42</item>
     </string-array>
 
    <!-- clear all recents button location -->
