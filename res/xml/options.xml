@@ -105,6 +105,10 @@
         android:dependency="weather_lockscreen_enabled"
         android:defaultValue="@*android:integer/weather_lockscreen_default_unit" />
 
+    <PreferenceCategory
+        android:key="lockscreen_colors_fonts"
+        android:title="@string/ls_colors_fonts_title" >
+
     <PreferenceScreen
     	android:key="lockscreen_colors"
        	android:title="@string/lockscreen_colors"
@@ -146,6 +150,7 @@
         settings:units="dp"
         android:defaultValue="16"
         android:persistent="false" />
+    </PreferenceCategory>
 
     <PreferenceCategory
         android:key="secure_lockscreen"

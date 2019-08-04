@@ -718,4 +718,6 @@
     <!-- Lock Clock & Date Size -->
     <string name="lockdate_font_size_title">Schriftgröße vom Datum</string>
     <string name="lockclock_font_size_title">Schriftgröße des Uhr-Widgets</string>
+
+    <string name="ls_colors_fonts_title">Farben und Schriftarten</string>
 </resources>
