@@ -96,7 +96,7 @@
     <string name="clock_date_display_summary">Показывать настраиваемую дату перед часами</string>
     <string name="clock_date_style">Стиль даты</string>
     <string name="clock_date_format">Формат даты</string>
-    <string name="clock_date_string_edittext_title">Введённое значение должно соответствовать формату даты, например ММ/dd/yy</string>
+    <string name="clock_date_string_edittext_title">Введенное значение должно соответствовать формату даты, например ММ/dd/yy</string>
     <string name="clock_date_string_edittext_summary">Ввести значение</string>
     <string name="am_pm_clock_normal">Нормальный размер шрифта</string>
     <string name="am_pm_clock_small">Маленький размер шрифта</string>
@@ -111,6 +111,10 @@
     <string name="clock_date_right">Справа от часов</string>
     <string name="clock_date_left">Слева от часов</string>
     <string name="clock_date_position">Расположение даты</string>
+    <string name="status_bar_clock_auto_hide_title">Авто-скрытие</string>
+    <string name="status_bar_clock_auto_hide_summary">Скрыть и отображения часы с постоянным интервалом</string>
+    <string name="status_bar_clock_auto_hide_hdur_title">Длительность скрытия</string>
+    <string name="status_bar_clock_auto_hide_sdur_title">Длительность отображения</string>
 
     <!-- Battery percentage -->
     <string name="battery_style_category_title">Значок батареи</string>
@@ -140,10 +144,6 @@
     <!-- Old Style Mobile -->
     <string name="use_old_mobiletype_title">Использовать старый значок сети</string>
     <string name="use_old_mobiletype_summary">Использовать значки сети из Oreo и ранее\nИнтерфейс системы будет перезапущен</string>
-
-    <!-- Hide statusbar on lockscreen -->
-    <string name="lockscreen_hide_status_bar_title">Скрыть строку состояния</string>
-    <string name="lockscreen_hide_status_bar_summary">При включении, строка состояния будет скрыта на экране блокировки</string>
 
     <string name="hide_lockscreen_indicator_display_title">Информация снизу</string>
     <string name="hide_lockscreen_indicator_display_summary">Отображать информацию о зарядке и подсказки разблокировки</string>
@@ -600,7 +600,7 @@
     <string name="corner_radius">Радиус закругления углов</string>
     <string name="content_padding">Отступ в быстрых настройках</string>
     <string name="corner_fwvals">Использовать значения фреймворка</string>
-    <string name="corner_fwvals_summary">Полезно, если устройство имеет скруглённые углы</string>
+    <string name="corner_fwvals_summary">Полезно, если устройство имеет скругленные углы</string>
 
     <!-- Volume Steps Fragment -->
     <string name="volume_steps_fragment_title">Шаги громкости</string>
@@ -699,7 +699,7 @@
     <string name="lockscreen_colors_summary">Изменить цвет виджетов экрана блокировки</string>
     <string name="lockscreen_clock_date_weather_color">Дата и погода</string>
     <string name="lockscreen_colors_reset_title">Сбросить цвета экрана блокировки</string>
-    <string name="lockscreen_colors_reset_message">Вы серьёзно хотите вернуть стандартные цвета?</string>
+    <string name="lockscreen_colors_reset_message">Вы серьезно хотите вернуть стандартные цвета?</string>
     <string name="lockscreen_colors_title">Цвета экрана блокировки</string>
     <string name="lockscreen_owner_info_color">Информация о владельце</string>
     <string name="lockscreen_phone_icon_color">Левый ярлык</string>
@@ -751,18 +751,78 @@
     <string name="lockscreen_date_selection_title">Стиль даты</string>
     <string name="lockscreen_date_selection_default">По умолчанию</string>
     <string name="lockscreen_date_selection_str_box">Полу-прозрачный ящик</string>
-    <string name="lockscreen_date_selection_str_round">Полу-прозрачный ящик (закруглённый)</string>
+    <string name="lockscreen_date_selection_str_round">Полу-прозрачный ящик (закругленный)</string>
     <string name="lockscreen_date_selection_qbeta_style">Таблетка (Android Q Beta)</string>
-    <string name="lockscreen_date_selection_str_accent">Простой закруглённый с акцентом</string>
-    <string name="lockscreen_date_selection_str_accent_day">Простой закруглённый с акцентом (альтернатива)</string>
-    <string name="lockscreen_date_selection_str_accent_transparent">Прозрачный закруглённый с акцентом</string>
-    <string name="lockscreen_date_selection_str_accent_transparent_day">Прозрачный закруглённый с акцентом (альтернатива)</string>
+    <string name="lockscreen_date_selection_str_accent">Простой закругленный с акцентом</string>
+    <string name="lockscreen_date_selection_str_accent_day">Простой закругленный с акцентом (альтернатива)</string>
+    <string name="lockscreen_date_selection_str_accent_transparent">Прозрачный закругленный с акцентом</string>
+    <string name="lockscreen_date_selection_str_accent_transparent_day">Прозрачный закругленный с акцентом (альтернатива)</string>
     <string name="lockscreen_date_selection_str_gradient">Градиент</string>
-    <string name="lockscreen_date_selection_str_border_accent">Тёмный с акцентными гранями</string>
-    <string name="lockscreen_date_selection_str_border_gradient">Тёмный с градиентовыми гранями</string>
+    <string name="lockscreen_date_selection_str_border_accent">Темный с акцентными гранями</string>
+    <string name="lockscreen_date_selection_str_border_gradient">Темный с градиентовыми гранями</string>
 
     <!-- Powermenu Background -->
     <string name="power_menu_bg_title">Фильтр фона меню питания</string>
     <string name="power_menu_bg_summary">Включение пользовательского фильтра фона, когда меню питания активно</string>
     <string name="power_menu_bg_style_title">Тип фильтра</string>
+
+    <!-- Running Services -->
+    <string name="qs_running_services_title">Значок запущенных сервисов</string>
+    <string name="qs_running_services_summary">Отключить значок запущенных сервисов в футере</string>
+
+    <!-- Lock Clock Fonts -->
+    <string name="lock_clock_font_title">Настройки шрифта часов</string>
+    <string name="lock_clock_font_summary">Изменить стандартный стиль шрифта виджета часов на экране блокировки</string>
+    <string name="lock_clock_font_dialog_title">Выбрать шрифт часов экрана блокировки</string>
+    <string name="lock_clock_font_stock">Нормальный</string>
+    <string name="lock_clock_font_bold">Жирный</string>
+    <string name="lock_clock_font_italic">Курсивный</string>
+    <string name="lock_clock_font_bold_italic">Жирный курсив</string>
+    <string name="lock_clock_font_light_italic">Легкий курсив</string>
+    <string name="lock_clock_font_thin_italic">Тонкий курсив</string>
+    <string name="lock_clock_font_light">Легкий</string>
+    <string name="lock_clock_font_thin">Тонкий</string>
+    <string name="lock_clock_font_condensed_normal">Уплотненный</string>
+    <string name="lock_clock_font_condensed_italic">Уплотненный курсив</string>
+    <string name="lock_clock_font_condensed_bold">Уплотненный жирный</string>
+    <string name="lock_clock_font_condensed_bold_italic">Уплотненный жирный курсив</string>
+    <string name="lock_clock_font_condensed_light">Уплотненный легкий</string>
+    <string name="lock_clock_font_condensed_light_italic">Уплотненный легкий курсив</string> 
+    <string name="lock_clock_font_medium_normal">Средний</string>
+    <string name="lock_clock_font_medium_italic">Средний курсив</string>
+    <string name="lock_clock_font_black">Черный</string>
+    <string name="lock_clock_font_black_italic">Черный курсив</string> 
+    <string name="lock_clock_font_dancingscript">DancingScript</string>
+    <string name="lock_clock_font_dancingscript_bold">DancingScript Bold</string>
+    <string name="lock_clock_font_comingsoon">ComingSoon</string>
+    <string name="lock_clock_font_notoserif">NotoSerif Normal</string>
+    <string name="lock_clock_font_notoserif_italic">NotoSerif Italic</string>
+    <string name="lock_clock_font_notoserif_bold">NotoSerif Bold</string>
+    <string name="lock_clock_font_notoserif_bold_italic">NotoSerif Bold Italic</string>
+    <string name="lock_clock_font_gobold">GoBold Light</string>
+    <string name="lock_clock_font_roadrage">Road Rage</string>
+    <string name="lock_clock_font_snowstorm">Snowstorm</string>
+    <string name="lock_clock_font_googlesans">Product Sans Light (по умолчанию)</string>
+    <string name="lock_clock_font_neoneon">Neoneon</string>
+    <string name="lock_clock_font_themeable">Themeable (или VCR OSD Mono)</string>
+    <string name="lock_clock_font_samsung">Shamshung</string>
+    <string name="lock_clock_font_mexcellent">Mexcellent</string>
+    <string name="lock_clock_font_burnstown">Burnstown</string>
+    <string name="lock_clock_font_dumbledor">Dumbledor</string>
+    <string name="lock_clock_font_phantombold">PhantomBold</string>
+
+    <!-- Lock Date Fonts -->
+    <string name="lock_date_font_title">Настройки шрифта даты</string>
+    <string name="lock_date_font_summary">Изменить стандартный стиль шрифта виджета даты на экране блокировки</string>
+    <string name="lock_date_font_dialog_title">Выбрать шрифт даты экрана блокировки</string>
+
+    <!-- Lock Clock & Date Size -->
+    <string name="lockdate_font_size_title">Размер шрифта даты</string>
+    <string name="lockclock_font_size_title">Размер шрифта часов</string>
+
+    <string name="ls_colors_fonts_title">Цвета и шрифты</string>
+
+    <!-- Battery fully charged -->
+    <string name="battery_fully_charged_notif_title">Полная зарядка батареи</string>
+    <string name="battery_fully_charged_notif_summary">Показать уведомление о полной зарядки батареи</string>
 </resources>
