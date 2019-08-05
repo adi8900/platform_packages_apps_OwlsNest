@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2015-2018 AOSiP
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- Statusbar Clock options -->
+    <string-array name="clock_date_format_entries_values">
+        <item>дд/ММ/гг</item>
+        <item>ММ/дд/гг</item>
+        <item>гггг-ММ-дд</item>
+        <item>гггг-дд-ММ</item>
+        <item>дд-ММ-гггг</item>
+        <item>MM-дд-гггг</item>
+        <item>MMM дд</item>
+        <item>MMM дд, гггг</item>
+        <item>MMMM дд, гггг</item>
+        <item>EEE</item>
+        <item>EEE дд</item>
+        <item>EEE дд/MM</item>
+        <item>EEE MM/дд</item>
+        <item>EEE дд MMM</item>
+        <item>EEE MMM дд</item>
+        <item>EEE MMMM дд</item>
+        <item>EEEE дд/MM</item>
+        <item>EEEE MM/дд</item>
+        <item>@string/clock_date_format_custom</item>
+    </string-array>
+
+    <!-- Statusbar Logos -->
+    <string-array name="status_bar_logo_style_entries">
+        <item>По умолчанию (DerpFest)</item>
+        <item>Хлоя</item>
+        <item>Кроник</item>
+        <item>Кроник 2.0</item>
+        <item>Кроник 3.0</item>
+        <item>Гнездо Совы</item>
+        <item>Стандартный DerpFest для тем</item>
+        <item>Альтернативный DerpFest</item>
+        <item>Голова Android</item>
+        <item>Мозг</item>
+        <item>Пришелец</item>
+        <item>Скрепка</item>
+        <item>Звезда смерти</item>
+        <item>Алмазный камень</item>
+        <item>Драматические маски</item>
+        <item>Эмодзи в очках</item>
+        <item>Отакчаток пальца</item>
+        <item>Футбольный шлем</item>
+        <item>Геймпад</item>
+        <item>Призрак</item>
+        <item>Github</item>
+        <item>Коктейль в стакане</item>
+        <item>Вино в стакане</item>
+        <item>Блеск</item>
+        <item>Google Контроллер</item>
+        <item>Электро-гитара</item>
+        <item>Гитара</item>
+        <item>Медиатор</item>
+        <item>Окей</item>
+        <item>Сердце</item>
+        <item>Linux</item>
+        <item>Гриб</item>
+        <item>Улыбка (Bootleggers)</item>
+        <item>Оранмент</item>
+        <item>Сова</item>
+        <item>Пак-мен</item>
+        <item>Сосна</item>
+        <item>Космические захватчики</item>
+        <item>Солнечные очки</item>
+        <item>Песочные часы</item>
+        <item>Тематический логотип 1 (крест)</item>
+        <item>Тематический логотип 2 (молния)</item>
+        <item>Тематический логотипo 3 (череп)</item>
+    </string-array>
+
+    <!-- Smart Pixels -->
+    <string-array name="smart_pixels_shift_times">
+        <item>15 секунд</item>
+        <item>30 секунд</item>
+        <item>1 минут</item>
+        <item>2 минуты</item>
+        <item>5 минут</item>
+        <item>10 минут</item>
+        <item>20 минут</item>
+        <item>30 минут</item>
+        <item>1 час</item>
+    </string-array>
+
+    <!-- Screen Stabilization -->
+    <string-array name="stabilization_velocity_friction_entries" translatable="false">
+        <item>0.01x</item>
+        <item>0.05x</item>
+        <item>0.1x</item>
+        <item>0.2x (По умолчанию)</item>
+        <item>0.3x</item>
+        <item>0.4x</item>
+    </string-array>
+
+    <string-array name="stabilization_position_friction_entries" translatable="false">
+        <item>0.01x</item>
+        <item>0.05x</item>
+        <item>0.1x (По умолчанию)</item>
+        <item>0.2x</item>
+        <item>0.3x</item>
+        <item>0.4x</item>
+    </string-array>
+
+    <string-array name="stabilization_velocity_amplitude_entries" translatable="false">
+        <item>0.5x</item>
+        <item>0.75x</item>
+        <item>1x (По умолчанию)</item>
+        <item>1.25x</item>
+        <item>1.5x</item>
+        <item>2x</item>
+    </string-array>
+</resources>
