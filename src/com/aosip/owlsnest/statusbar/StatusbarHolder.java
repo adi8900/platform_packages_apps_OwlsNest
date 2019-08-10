@@ -83,12 +83,13 @@ public class StatusbarHolder extends SettingsPreferenceFragment {
         public StatusBarAdapter(FragmentManager fm) {
             super(fm);
             frags[0] = new BatteryCategory();
-            frags[1] = new CarrierCategory();
-            frags[2] = new ClockDateSettings();
-            frags[3] = new IconsCategory();
-            frags[4] = new TrafficCategory();
+            frags[1] = new BatteryBarCategory();
+            frags[2] = new CarrierCategory();
+            frags[3] = new ClockDateSettings();
+            frags[4] = new IconsCategory();
+            frags[5] = new TrafficCategory();
             try {
-                frags[5] = new TickerCategory();
+                frags[6] = new TickerCategory();
             } catch (IndexOutOfBoundsException ignored) {/* Do nothing */}
         }
 
@@ -113,6 +114,7 @@ public class StatusbarHolder extends SettingsPreferenceFragment {
         if (notchDevice) {
             return new String[]{
                 getString(R.string.battery_category),
+                getString(R.string.batterybar_category),
                 getString(R.string.carrier_category),
                 getString(R.string.clock_category),
                 getString(R.string.icon_category),
@@ -120,6 +122,7 @@ public class StatusbarHolder extends SettingsPreferenceFragment {
         } else {
             return new String[]{
                 getString(R.string.battery_category),
+                getString(R.string.batterybar_category),
                 getString(R.string.carrier_category),
                 getString(R.string.clock_category),
                 getString(R.string.icon_category),
