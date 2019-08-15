@@ -410,6 +410,7 @@
     <string name="lockscreen_cover_filter_tint">Akzent gefärbt</string>
     <string name="lockscreen_cover_filter_blur">Unschärfe</string>
     <string name="lockscreen_cover_filter_grayblur">Graustufen und unscharf</string>
+    <string name="lockscreen_cover_filter_tinted_blur">Akzent gefärbt und unscharf</string>
     <!-- Facelock toggle -->
     <string name="face_auto_unlock_title">Entsperren per Gesichtserkennung</string>
     <string name="face_auto_unlock_summary">Sperrbildschirm nach Gesichtserkennung automatisch übergehen</string>
